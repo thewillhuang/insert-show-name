@@ -1,0 +1,22 @@
+{
+  "name": "insert-show-name",
+  "version": "1.0.0",
+  "description": "==================",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joekteo/insert-show-name.git"
+  },
+  "author": "Joe K Teo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joekteo/insert-show-name/issues"
+  },
+  "homepage": "https://github.com/joekteo/insert-show-name",
+  "dependencies": {
+    "express": "^4.11.2"
+  }
+}
