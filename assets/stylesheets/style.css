@@ -6,3 +6,8 @@ body {
 .navbar {
   margin-bottom: 20px;
 }
+
+#logo {
+  margin-top: -180px;
+  margin-bottom: -180px;
+}

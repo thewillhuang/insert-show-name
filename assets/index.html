@@ -9,19 +9,15 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Insert Name Here</title>
+    <title>Insert Show Name</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./stylesheets/css/bootstrap.min.css" rel="stylesheet">
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 
     <!-- Custom styles for this template -->
-    <link href="style.css" rel="stylesheet">
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+    <link href="./stylesheets/style.css" rel="stylesheet">
+    <link href="./stylesheets/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -34,6 +30,8 @@
 
     <div class="container">
 
+
+      <img id="banner" src="images/mario.jpg" height="250" width="100%">
       <!-- Static navbar -->
       <nav class="navbar navbar-default">
         <div class="container-fluid">
@@ -44,7 +42,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Insert Name Here</a>
+            <!-- <a class="navbar-brand" href="#">Insert Show Name</a> -->
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
@@ -72,57 +70,30 @@
           </div><!--/.nav-collapse -->
         </div><!--/.container-fluid -->
       </nav>
-
       <!-- Main component for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <p>BANNER LOGO</p>
+      <div class="jumbotron" id="content-background">
+        <div class="content">
+          <img class="center-block logo" id="logo" src="images/logo.png" height="500px" width="80%">
+          <h2>Newest Video</h2>
+            <!-- <br> -->
+          <!-- 16:9 aspect ratio -->
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/videoseries?list=PLdARs44-eEy31wyluCGTPa6yONBrba8RH"></iframe>
+          </div>
       </div>
-
-      <div class="content">
-        <h2>Video List</h2>
-        <div class="row">
-          <div class="col-md-7">
-            <img width="200px"; height="200px";>
-          </div>
-            <div class="col-md-5">
-            video content
-            </div>
-        </div>
-        <div class="row">
-          <div class="col-md-7">
-            <img width="200px"; height="200px";>
-          </div>
-            <div class="col-md-5">
-            video content
-            </div>
-        </div>
-        <div class="row">
-          <div class="col-md-7">
-            <img width="200px"; height="200px";>
-          </div>
-            <div class="col-md-5">
-            video content
-            </div>
-        </div>
-        <div class="row">
-          <div class="col-md-7">
-            <img width="200px"; height="200px";>
-          </div>
-            <div class="col-md-5">
-            video content
-            </div>
-        </div>
-      </div>
-
     </div> <!-- /container -->
+    <div id="footer">
+      2015 &copy; All Rights Reserved
+      <i class="fa fa-facebook-square"></i>
+      <i class="fa fa-youtube-play"></i>
+    </footer>
 
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="./stylesheets/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
