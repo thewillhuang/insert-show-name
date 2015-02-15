@@ -1,6 +1,15 @@
 body {
   padding-top: 20px;
   padding-bottom: 20px;
+  background: #4E93AA;
+}
+
+#banner {
+  border-radius: 10px 10px 0 0;
+}
+
+.navbar-nav {
+  padding-top: 10px;
 }
 
 .navbar {
@@ -10,4 +19,26 @@ body {
 #logo {
   margin-top: -180px;
   margin-bottom: -180px;
+}
+
+#footer {
+  text-align: center;
+}
+
+.fa-2x {
+  /*padding: -5px 5px -5px 5px ;*/
+}
+
+#facebook {
+  color: #3b5998;
+  margin-top: -3px;
+}
+
+#youtube {
+  color: #CD332D;
+  margin-top: -3px;
+}
+
+#footer {
+  font-size: 12px;
 }
