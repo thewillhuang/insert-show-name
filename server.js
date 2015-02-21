@@ -18,6 +18,7 @@ var oneDay = 86400000;
 app.enable('etag');
 app.use(compression());
 app.use(bodyparser.json());
+app.use(express.static(path));
 
 app.listen(port, function() {
   console.log('Server started on port: %d', port);
