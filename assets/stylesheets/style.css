@@ -4,6 +4,14 @@ body {
   background: #ffffff;
 }
 
+.navbar-default {
+  background-color: white;
+}
+
+.jumbotron {
+  background-color: white;
+}
+
 #banner {
   border-radius: 10px 10px 0 0;
 }
