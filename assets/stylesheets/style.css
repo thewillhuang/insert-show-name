@@ -47,6 +47,16 @@ body {
   margin-top: -3px;
 }
 
+#twitch {
+  margin-top: -3px;
+  color:#7550BA;
+}
+
+#instagram {
+  color:#A1725B;
+  margin-top: -3px;
+}
+
 #footer {
   font-size: 12px;
 }
