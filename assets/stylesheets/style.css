@@ -25,6 +25,17 @@ body {
   margin-bottom: -180px;
 }
 
+.crop {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 89%;
+    height: 150px;
+    overflow: hidden;
+    box-shadow: 10px 10px 5px #888888;
+}
+
 #footer {
   text-align: center;
 }
