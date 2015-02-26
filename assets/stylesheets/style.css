@@ -13,7 +13,7 @@ body {
 }
 
 .navbar-nav {
-  padding-top: 10px;
+  padding-top: 6px;
 }
 
 .navbar {
@@ -36,14 +36,36 @@ body {
     /*box-shadow: 10px 10px 5px #888888;*/
 }
 
-#footer {
+/*sticky footer*/
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+.wrapper {
+  min-height: 100%;
+  margin: 0 auto -10px; /* the bottom margin is the negative value of the footer's height */
+}
+footer, .push {
+  height: 10; /* '.push' must be the same height as 'footer' */
+}
+
+#footer{
   text-align: center;
 }
 
-.fa-2x {
-  /*padding: -5px 5px -5px 5px ;*/
+.footer, .push {
+clear: both;
 }
 
+/*links*/
+/*sizing*/
+.fa-2x {
+  padding: -5px 5px -5px 5px;
+}
+/*logos*/
 #facebook {
   color: #3b5998;
   margin-top: -3px;
