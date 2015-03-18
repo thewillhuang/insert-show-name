@@ -37,6 +37,13 @@ body {
   background-color: #FF004D;
 }
 
+@media (min-width: 768px) {
+  .container .jumbotron {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
 .panel-body {
   background-color: #FF004D;
 }
@@ -81,6 +88,18 @@ footer, .push {
   height: 10; /* '.push' must be the same height as 'footer' */
 }
 
+h2{
+  font-size: 1.5em;
+}
+
+h4{
+  font-size: 1.2em;
+}
+
+h5{
+  font-size: 1em;
+}
+
 #footer{
   text-align: center;
 }
@@ -96,25 +115,21 @@ clear: both;
 }
 /*logos*/
 #facebook {
-  color: #3b5998;
+  color: white;
   margin-top: -3px;
 }
 
 #youtube {
-  color: #CD332D;
+  color: white;
   margin-top: -3px;
 }
 
 #twitch {
   margin-top: -3px;
-  color:#7550BA;
+  color:white;
 }
 
 #instagram {
-  color:#A1725B;
+  color:white;
   margin-top: -3px;
-}
-
-#footer {
-  font-size: 12px;
 }
