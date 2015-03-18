@@ -1,0 +1,9 @@
+{
+  "preset": "airbnb",
+  "requireMultipleVarDecl": null,
+  "validateQuoteMarks": true,
+  "disallowMultipleVarDecl": false,
+  "requireCamelCaseOrUpperCaseIdentifiers": "ignoreProperties"
+  "esprima": "esprima-fb",
+  "fileExtensions": [".js", ".jsx"],
+}
