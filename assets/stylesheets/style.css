@@ -26,7 +26,7 @@ body {
 
 .navbar-default .navbar-nav>li>a {
   color: white;
-  line-height: 26px;
+  line-height: 36px;
 }
 
 .navbar-default {
@@ -38,7 +38,7 @@ body {
 }
 
 h2{
-  padding-top: 2em;
+  padding-top: 1.5em;
 }
 
 .first-video {
