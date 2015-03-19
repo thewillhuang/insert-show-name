@@ -1,9 +1,9 @@
 body {
   padding-top: 20px;
   padding-bottom: 20px;
-  background: #FF004D;
+  background: #F4F4F4;
   font-family: 'montserratlight';
-  color: white;
+  color: black;
   font-size: 2em;
 }
 
@@ -38,17 +38,21 @@ body {
 
 }
 
+.color-wrap{
+  background-color: #FFFFFF;
+}
+
 .navbar-default .navbar-nav>li>a {
   color: black;
   line-height: 36px;
 }
 
 .navbar-default {
-  background-color: #F4F4F4;
+  background-color: #FFFFFF;
 }
 
 .jumbotron {
-  background-color: #FF004D;
+  background-color: #FFFFFF;
 }
 
 h2{
@@ -68,7 +72,7 @@ h2{
 }
 
 .panel-body {
-  background-color: #FF004D;
+  background-color: #FFFFFF;
 }
 
 .navbar-nav {
@@ -135,21 +139,21 @@ clear: both;
 }
 /*logos*/
 #facebook {
-  color: white;
+  color: black;
   margin-top: -3px;
 }
 
 #youtube {
-  color: white;
+  color: black;
   margin-top: -3px;
 }
 
 #twitch {
   margin-top: -3px;
-  color:white;
+  color:black;
 }
 
 #instagram {
-  color:white;
+  color:black;
   margin-top: -3px;
 }
